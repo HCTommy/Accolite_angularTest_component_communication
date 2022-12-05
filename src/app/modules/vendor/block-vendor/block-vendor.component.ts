@@ -16,4 +16,18 @@ export class BlockVendorComponent implements OnInit {
 
   }
 
+  getName():string{
+
+    return BlockVendorComponent.Name;
+
+  }
+
+  getAge():string{
+    return BlockVendorComponent.Age;
+  }
+
+  getCity():string{
+    return BlockVendorComponent.City;
+  }
+
 }
