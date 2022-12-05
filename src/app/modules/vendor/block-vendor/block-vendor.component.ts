@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./block-vendor.component.scss']
 })
 export class BlockVendorComponent implements OnInit {
+  static Name:any;
+  static Age:any;
+  static City:any;
 
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
